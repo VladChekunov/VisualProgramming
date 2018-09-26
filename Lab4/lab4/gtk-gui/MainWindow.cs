@@ -12,8 +12,6 @@ public partial class MainWindow
 	private global::Gtk.TextView textview;
 	
 	private global::Gtk.Button btnFill;
-	
-	private global::Gtk.Button btnPrint;
 
 	protected virtual void Build ()
 	{
@@ -42,6 +40,7 @@ public partial class MainWindow
 		this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
 		// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
 		this.textview = new global::Gtk.TextView ();
+		this.textview.Buffer.Text = "Test";
 		this.textview.CanFocus = true;
 		this.textview.Name = "textview";
 		this.GtkScrolledWindow.Add (this.textview);
@@ -59,17 +58,6 @@ public partial class MainWindow
 		w4.Position = 2;
 		w4.Expand = false;
 		w4.Fill = false;
-		// Container child vbox3.Gtk.Box+BoxChild
-		this.btnPrint = new global::Gtk.Button ();
-		this.btnPrint.CanFocus = true;
-		this.btnPrint.Name = "btnPrint";
-		this.btnPrint.UseUnderline = true;
-		this.btnPrint.Label = global::Mono.Unix.Catalog.GetString ("Print");
-		this.vbox3.Add (this.btnPrint);
-		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.btnPrint]));
-		w5.Position = 3;
-		w5.Expand = false;
-		w5.Fill = false;
 		this.Add (this.vbox3);
 		if ((this.Child != null)) {
 			this.Child.ShowAll ();
@@ -78,5 +66,6 @@ public partial class MainWindow
 		this.DefaultHeight = 397;
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
+		this.btnFill.Clicked += new global::System.EventHandler (this.FillList);
 	}
 }
