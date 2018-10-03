@@ -16,12 +16,12 @@ public partial class MainWindow: Gtk.Window
 		a.RetVal = true;
 	}
 
-	public static GenericsList<int> list;
+	public static GenericsSet<int> list;
 
 	protected void FillList (object sender, EventArgs e)
 	{
 		//System.Media.SystemSounds.Beep.Play ();
-		GenericsList<int> list = new GenericsList<int>();
+		GenericsSet<int> list = new GenericsSet<int>();
 		list.Add(7);
 		list.Add(70);
 		list.Add(77);

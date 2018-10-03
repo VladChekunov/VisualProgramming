@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Gtk;
 
-public class GenericsList<T>{
+public class GenericsSet<T>{
 	
 	public class Node: IEquatable<Node>{
 		public Node(T tdata){
@@ -40,7 +40,7 @@ public class GenericsList<T>{
 	private Node head;
 	private Node tail;
 	private int count;
-	public GenericsList(){
+	public GenericsSet(){
 		head = null;
 		tail = null;
 		count = 0;
@@ -71,7 +71,7 @@ public class GenericsList<T>{
 	public int GetCount(){
 		return count;
 	}
-
+	//For print list
 	public IEnumerator<T> GetEnumerator()
 	{
 		Node current = head;

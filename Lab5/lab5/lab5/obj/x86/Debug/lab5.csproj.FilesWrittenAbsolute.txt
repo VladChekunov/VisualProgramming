@@ -1,0 +1,6 @@
+/home/copper/Desktop/pr/cgovno/labsOnGit/Lab5/lab5/lab5/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/copper/Desktop/pr/cgovno/labsOnGit/Lab5/lab5/lab5/obj/x86/Debug/lab5.gtk-gui.gui.stetic
+/home/copper/Desktop/pr/cgovno/labsOnGit/Lab5/lab5/lab5/bin/Debug/lab5.exe.mdb
+/home/copper/Desktop/pr/cgovno/labsOnGit/Lab5/lab5/lab5/bin/Debug/lab5.exe
+/home/copper/Desktop/pr/cgovno/labsOnGit/Lab5/lab5/lab5/obj/x86/Debug/lab5.exe
+/home/copper/Desktop/pr/cgovno/labsOnGit/Lab5/lab5/lab5/obj/x86/Debug/lab5.exe.mdb
