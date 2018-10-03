@@ -3,9 +3,9 @@
 namespace lab5
 {
 	[System.ComponentModel.ToolboxItem (true)]
-	public partial class MyCircleWidget : Gtk.Bin
+	public partial class MyWidget : Gtk.Bin
 	{
-		public MyCircleWidget ()
+		public MyWidget ()
 		{
 			this.Build ();
 		}
